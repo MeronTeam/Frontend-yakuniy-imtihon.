@@ -1,0 +1,159 @@
+.purchases-section {
+  width: 100%;
+  height: 70rem;
+  background-color: #f9f9f9;
+  padding: 5rem;
+  padding-top: 30rem;
+  margin-bottom: 10rem;
+  @media (max-width: 480px) {
+    padding-top: 20rem;
+  }
+  .purchasses-arrow {
+    @media (max-width: 480px) {
+      flex-direction: column;
+    }
+  }
+  .purchases-left {
+    h1 {
+      margin-bottom: 2rem;
+      font-size: 4rem;
+      @media (max-width: 480px) {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+      b {
+        color: #936dff;
+      }
+    }
+    .purchases-card {
+      position: relative;
+      width: 40rem;
+      height: 8rem;
+      background-color: #fff;
+      margin-top: 3rem;
+      padding: 1rem;
+      border-radius: 2rem;
+      transition: 0.1s linear;
+      cursor: pointer;
+      @media (max-width: 480px) {
+        height: auto;
+        margin: 0 auto;
+      }
+      .flex-class {
+        gap: 1rem;
+        align-items: center;
+        h6 {
+          margin-top: -1rem;
+          font-weight: 700;
+          font-size: 1.5rem;
+          @media (max-width: 480px) {
+            font-size: 1.2rem;
+          }
+        }
+        h5 {
+          font-size: 1.2rem;
+          @media (max-width: 480px) {
+            font-size: 1rem;
+          }
+        }
+        span {
+          position: absolute;
+          left: 75%;
+          top: 50%;
+          font-size: 1.5rem;
+          color: #acadb9;
+          @media (max-width: 480px) {
+            font-size: 1.2rem;
+          }
+        }
+      }
+      &:hover {
+        box-shadow: -10px 10px 50px 10px #eee;
+        transition: 0.1s linear;
+        transform: scale(1.1);
+      }
+    }
+  }
+  .purchases-right {
+    width: 40rem;
+    margin-top: 10rem;
+    height: 35rem;
+    background-color: #fff;
+    border-radius: 3rem;
+    padding: 2rem;
+    box-shadow: -10px 10px 50px 10px #eee;
+    @media (max-width: 480px) {
+      margin-top: 3rem;
+    }
+    .right-title {
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 4rem;
+      h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        @media (max-width: 480px) {
+          font-size: 1.5rem;
+        }
+      }
+      h4 {
+        font-weight: 500;
+        font-size: 1.3rem;
+        @media (max-width: 480px) {
+          font-size: 1rem;
+        }
+      }
+      img {
+        width: 2rem;
+        margin-left: 0.6rem;
+        cursor: pointer;
+        @media (max-width: 480px) {
+          width: 1.5rem;
+        }
+      }
+    }
+    .right-body {
+      .body-card {
+        margin-top: 5rem;
+        .flex-class {
+          align-items: center;
+          gap: 2rem;
+          h6 {
+            margin-top: -1rem;
+            font-weight: 700;
+            font-size: 1.5rem;
+            @media (max-width: 480px) {
+              font-size: 1.2rem;
+            }
+          }
+          h5 {
+            font-size: 1.2rem;
+            @media (max-width: 480px) {
+              font-size: 1rem;
+            }
+          }
+          span {
+            position: absolute;
+            left: 75%;
+            top: 50%;
+            font-size: 1.5rem;
+            color: #acadb9;
+            @media (max-width: 480px) {
+              font-size: 1.2rem;
+            }
+          }
+        }
+        .resctangles {
+          margin-top: 1rem;
+          img {
+            width: 27rem;
+            position: absolute;
+            @media (max-width: 480px) {
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
